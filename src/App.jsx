@@ -37,7 +37,7 @@ import { CoordinatorProfileProvider } from "./context/CoordinatorProfileContext"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/CampusPulse">
   <AuthProvider>
   <CoordinatorProfileProvider>
   <AdminSettingsProvider>
